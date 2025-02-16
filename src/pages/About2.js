@@ -43,7 +43,7 @@ function About2() {
                     transition={{ duration: 1}}
                     viewport={{ once:true, amount: 0.4 }}
                 >
-                    <img className='img-fluid rounded-3' src={AboutImage} alt='About Image'/>
+                    <img className='img-fluid rounded-3' src={AboutImage} alt='About Sector 2'/>
                 </motion.div>
             </div>
         </section>

@@ -14,7 +14,7 @@ function About() {
                     transition={{ duration: 1.3}}
                     viewport={{ once:true, amount: 0.4 }}
                 >
-                    <img className='img-fluid rounded-3' src={AboutImage} alt='About Image'/>
+                    <img className='img-fluid rounded-3' src={AboutImage} alt='About Sector'/>
                 </motion.div>
                 <motion.div className='about-text col-lg-6 d-flex justify-content-center align-items-center flex-column mt-3 mt-lg-0'
                     initial={{ x: 50, opacity: 0}}
