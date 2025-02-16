@@ -10,7 +10,7 @@ function Testimonials() {
 
     useEffect(() => {
         dispatch(fetchReviews())
-    }, [])
+    }, [dispatch])
     
     return(
         <section id='reviews' className="reviews-container py-5">

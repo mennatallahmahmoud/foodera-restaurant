@@ -35,7 +35,7 @@ function About2() {
                             purus a odio finibus bibendum.
                         </li>
                     </ul>
-                    <a href='#'className='custom-btn mt-3 mx-auto me-lg-auto ms-lg-0 fw-bold'>Learn More</a>
+                    <a href='https://example.com'className='custom-btn mt-3 mx-auto me-lg-auto ms-lg-0 fw-bold'>Learn More</a>
                 </motion.div>
                 <motion.div className='col-lg-6'
                     initial={{ x: 50, opacity: 0}}
@@ -43,7 +43,7 @@ function About2() {
                     transition={{ duration: 1}}
                     viewport={{ once:true, amount: 0.4 }}
                 >
-                    <img className='img-fluid rounded-3' src={AboutImage}/>
+                    <img className='img-fluid rounded-3' src={AboutImage} alt='About Image'/>
                 </motion.div>
             </div>
         </section>

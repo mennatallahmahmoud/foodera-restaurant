@@ -10,7 +10,7 @@ function FAQ() {
 
     useEffect(() => {
         dispatch(fetchFAQ())
-    }, [])
+    }, [dispatch])
 
     return(
         <section id='faq' className="faq-container container py-5 mt-4">

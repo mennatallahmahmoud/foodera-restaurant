@@ -12,7 +12,7 @@ function Explore() {
 
     useEffect(() => {
         dispatch(fetchExplore());
-    }, [])
+    }, [dispatch])
     
     return(
         <section id='explore-foods' className="container explore-container my-5 py-4">
@@ -38,7 +38,7 @@ function Explore() {
                                 <span className='price-after fs-4'>${item.priceAfterDiscount}</span>
                                 <span className='price-before fs-4 ms-3 text-decoration-line-through'>${item.price}</span>
                             </div>
-                            <a href="#" className="custom-btn fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Order Now</a>
+                            <a href="https://example.com/" className="custom-btn fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Order Now</a>
                             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" >
                                 <div className="modal-dialog">
                                     <div className="modal-content p-3">
