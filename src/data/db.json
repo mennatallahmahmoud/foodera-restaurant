@@ -1,0 +1,73 @@
+{
+    "Foods" : [
+        {
+            "id" : 1,
+            "img" : "https://demo.tutsflow.com/foodera/images/foods/01.jpg",
+            "title" : "Rainbow Vegetable Sandwich",
+            "time" : "15 - 20 Minutes",
+            "serves" : 1,
+            "price" : 11.70,
+            "priceAfterDiscount" : 10.50
+        },
+        {
+            "id" : 2,
+            "img" : "https://demo.tutsflow.com/foodera/images/foods/02.jpg",
+            "title" : "Vegetarian Burger",
+            "time" : "30 - 45 Minutes",
+            "serves" : 1,
+            "price" : 10.50,
+            "priceAfterDiscount" : 9.20
+        },
+        {
+            "id" : 3,
+            "img" : "https://demo.tutsflow.com/foodera/images/foods/03.jpg",
+            "title" : "Raspberry Stuffed French Toast",
+            "time" : "10 - 15 Minutes",
+            "serves" : 1,
+            "price" : 13.20,
+            "priceAfterDiscount" : 12.50
+        }
+    ],
+    "Reviews" : [
+        {
+            "id": 123,
+            "img" : "https://demo.tutsflow.com/foodera/images/testimonials/1.jpg",
+            "review" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.",
+            "name" : "Simab Dave - Web Designer"
+        },
+        {
+            "id": 984,
+            "img" : "https://demo.tutsflow.com/foodera/images/testimonials/2.jpg",
+            "review" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live far from the countries Vokalia.",
+            "name" : "Johnthan Doe - UX Designer"
+        },
+        {
+            "id": 151,
+            "img" : "https://demo.tutsflow.com/foodera/images/testimonials/1.jpg",
+            "review" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.",
+            "name" : "Maccy Doe - Front End"
+        }
+    ],
+    "FAQ" : [
+        {  
+            "id" : 412,
+            "question" : "Is Foodera Bread really baked fresh each day?",
+            "answer" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+        },
+        {  
+            "id" : 902,
+            "question" : "Do you bake breads containing animal fats or products?",
+            "answer" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+        },
+        {  
+            "id" : 417,
+            "question" : "Can I order your products online?",
+            "answer" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+        },
+        {  
+            "id" : 742,
+            "question" : "When are you opening a shop near me?",
+            "answer" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+        }
+    ]
+}

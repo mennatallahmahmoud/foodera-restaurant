@@ -1,0 +1,20 @@
+.para-container {
+    background-image: url("../assets//image-section.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+.para-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+.para-container .custom-btn:hover {
+    background-color: transparent !important;
+}

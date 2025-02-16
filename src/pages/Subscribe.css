@@ -1,0 +1,10 @@
+.subscribe-container h2 {
+    font-size: 40px !important;
+    line-height: 45px !important;
+}
+.subscribe-container input[type="text"] {
+    border: 3px solid #e5e5e5;
+}
+.subscribe-container input[type="text"]:focus {
+    outline: none;
+}

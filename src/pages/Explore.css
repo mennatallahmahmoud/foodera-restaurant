@@ -1,0 +1,47 @@
+.explore-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.explore-container h3 {
+    font-size: 36px !important;
+    color: #43121d !important;
+}
+.explore-container .card-title {
+    font-size: 19px;
+    color: #43121d;
+}
+.explore-container .details {
+    color: #555555;
+}
+.explore-container .price {
+    border-bottom: 1px solid #eee;
+}
+.explore-container .price-before {
+    color: #999;
+}
+.explore-container .price-after {
+    color: #a82d49;
+}
+.modal-title {
+    color: #43121d;
+}
+.modal-body input {
+    border-radius: 0;
+    border: 3px solid #eee;
+    padding: 8px 10px;
+}
+.modal-body input:focus {
+    border: 3px solid #eee !important;
+    box-shadow: none;
+}
+.modal-body select {
+    width: 100%;
+    border: 3px solid #eee;
+    padding: 8px 10px;
+}
+.modal-body select:focus {
+    outline: none;
+}
+.btn-close:focus {
+    box-shadow: none !important;
+}

@@ -1,0 +1,21 @@
+.reviews-container {
+    background-color: #a82d49;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reviews-container .carousel-inner img {
+    width: 70px;
+}
+.reviews-container .carousel-inner p {
+    line-height: 35px !important;
+}
+.reviews-container .carousel-inner span {
+    color: #a82d49;
+}
+.reviews-container .carousel-indicators {
+    bottom: -60px !important;
+}
+.reviews-container .carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}

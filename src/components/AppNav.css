@@ -1,0 +1,33 @@
+.navbar-parent {
+    background-color: transparent;
+    box-shadow: none;
+}
+.navbar-parent-shadow {
+    transition: 0.7s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+}
+.nav-bar-links {
+    gap: 10px;
+}
+.nav-bar-links > a {
+    color: #a82c48;
+    font-size: 15px;
+}
+.nav-bar-links > a:hover {
+    color: #a82c48 !important;
+}
+.nav-bar-links > a:last-child {
+    color: white !important;
+    background-color: #a82c48;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    transition: 0.3s;
+    border: 3px solid #a82c48;
+    line-height: 1;
+    margin-left: 3px;
+}
+.nav-bar-links > a:last-child:hover {
+    color: #a82c48 !important;
+    background-color: white !important;
+}

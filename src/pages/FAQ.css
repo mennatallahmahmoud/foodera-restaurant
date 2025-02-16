@@ -1,0 +1,13 @@
+.faq-container h3 {
+    font-size: 36px;
+    color: #43121d;
+}
+.faq-container h4 {
+    color: #43121d;
+}
+.faq-container h4 span {
+    color: #a82d49;
+}
+.faq-container p {
+    font-size: 18px;
+}

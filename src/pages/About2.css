@@ -1,0 +1,9 @@
+.about-container ul {
+    color: #555555;
+    list-style: none;
+    padding: 0 !important;
+}
+.about-container ul svg {
+    stroke: #a82c48;
+    stroke-width: 2;
+}

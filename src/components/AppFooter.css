@@ -1,0 +1,22 @@
+footer {
+    background-color: #a82d49;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul.links li {
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+}
+footer ul.links li:hover {
+    border-color:#fff;
+}
+footer ul a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+footer p {
+    font-size: 14px;
+}
